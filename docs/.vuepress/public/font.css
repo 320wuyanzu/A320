@@ -1,0 +1,7 @@
+@font-face{
+    font-family: EWD;
+    src: url('./SourceCodeVariable-Roman.otf'),url('./SourceCodeVariable-Roman.ttf');
+}
+.content {
+    font-family: EWD;
+}
