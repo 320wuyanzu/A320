@@ -2,7 +2,7 @@
 home: true
 heroImage: /A320.jpg
 actionText: 开始 →
-actionLink: /ATA21/
+actionLink: /ATA28/
 footer: MIT Licensed | Copyright © 2018-present 风中的切变
 next: /ATA21/
 ---
@@ -21,11 +21,11 @@ next: /ATA21/
 - **然后**，本人是 AV 专业，好多机械的东西不是太懂，欢迎[交流](https://320wuyanzu.github.io)。
 - **如果**，有机务兄弟大佬看到了，请指出笔记里的错误，联系方式请戳[这里](https://320wuyanzu.github.io)。
 - **提醒**，笔记里的所有内容仅用于学习了解目的，请按 **AMM** 等手册施工。
-- **计划**，我打算分成三篇来写，内容深度逐级加深：
-  - [入门篇]()
-  - [中级篇]()
-  - [高级篇]()
-- **最后**，这是初级篇
+- **计划**，我打算分成四篇来写，内容深度逐级加深：
+  - [入门篇]()，对各个系统有个大概的认识，叫得出主要部件的名字
+  - [初级篇]()，熟悉各个系统的主要工作原理及作用，认识主要的部件，知道主要部件的位置
+  - [中级篇]()，能将各个系统之间联系起来，形成整体。
+  - [高级篇]()，能从基本原理（数理化）解释和推导各个系统的原理
 :::
 
 民航飞机的系统组成非常繁杂，国际上无论是制订手册还是规范等等，都按照 [ATA100](https://www.atanet.org/) 规范把整个飞机系统分类，每个ATA章节都对应相应的内容
@@ -57,29 +57,3 @@ next: /ATA21/
 |    |               | 35 | 氧气          | 78 | 排气            |
 |    |               | 36 | 气源          | 79 | 滑油            |
 |    |               | 38 | 水和污水      | 80 | 启动            |
-
-## 进展
-
-- `开发中: ATA-21-Air Conditioning`
-- `开发中: ATA-22-Auto Flight`
-- `开发中: ATA-23-Communications`
-- `开发中: ATA-24-Electrical Power`
-- `开发中: ATA-25-Equipment/Furnishings`
-- `开发中: ATA-26-Fire Protection`
-- `开发中: ATA-27-Flight Controls`
-- `开发中: ATA-28-Fuel`
-- `开发中: ATA-29-Hydraulic Power`
-- `开发中: ATA-30-Ice and Rain Protection`
-- `开发中: ATA-31-Indicating/Recording Systems`
-- `开发中: ATA-32-Landing Gear`
-- `开发中: ATA-33-Lights`
-- `开发中: ATA-34-Navigation`
-- `开发中: ATA-35-Oxygen`
-- > [**ATA-36-Pneumatic**](/ATA36/)(部分完成)
-- `开发中: ATA-38-Water/Waste`
-- `开发中: ATA-46-Information Systems`
-- `开发中: ATA-47-Inert Gas System`
-- `开发中: ATA-49-Airborne Auxiliary Power`
-- `开发中: ATA-51-Structures`
-- `开发中: ATA-52-Doors`
-- > [**ATA-71-Power Plant(CFM56)**](/ATA71/)(正在写)

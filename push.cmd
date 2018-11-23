@@ -12,4 +12,4 @@ git push -f git@github.com:320wuyanzu/A320-Beginner.git master:gh-pages
 cd ../../../
 git add *
 git commit -m"开个头"
-git push -f git@github.com:320wuyanzu/A320-Beginner.git collapse:collapse
+git push -f git@github.com:320wuyanzu/A320-Beginner.git master:master

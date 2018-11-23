@@ -3,14 +3,16 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: '/font.css' }]
     ],
     base: '/A320-Beginner/',
-    title: '空客A320FM机型介绍-入门篇',
-    description: '写给爱好者的',
+    title: '入门篇',
+    description: 'A320FM机型介绍',
     themeConfig: {
         lastUpdated: '最后一次编辑',
         nav: [
-            { text: 'Personal Homepage', link: 'https://320wuyanzu.github.io' },
-            { text: 'Home', link: '/' },
-            { text: 'A330 Notes', link: 'https://320wuyanzu.github.io/410.html' },
+            { text: '个人主页', link: 'https://320wuyanzu.github.io' },
+            { text: '入门篇', link: '/' },
+            { text: '初级篇', link: 'https://320wuyanzu.github.io/410.html' },
+            { text: '中级篇', link: 'https://320wuyanzu.github.io/410.html' },
+            { text: '高级篇', link: 'https://320wuyanzu.github.io/410.html' },
         ],
         sidebarDepth: 2,
         sidebar: sidebar_group()
@@ -50,14 +52,8 @@ function sidebar_group() {
         title: 'ATA27-Flight Controls',
         children: []
     };
-    let ATA28 = {
-        title: 'ATA28-Fuel',
-        children: []
-    };
-    let ATA29 = {
-        title: 'ATA29-Hydraulic Power',
-        children: []
-    };
+
+
     let ATA30 = {
         title: 'ATA30-Ice/Rain Protection',
         children: []
@@ -114,29 +110,48 @@ function sidebar_group() {
         title: 'ATA71-Power Plant(CFM56)',
         children: ['/ATA71/', '/ATA71/72/', '/ATA71/73/', '/ATA71/74/','/ATA71/75/','/ATA71/76/','/ATA71/77/','/ATA71/78/','/ATA71/79/','/ATA71/80/']
     };
+    let ATA28 = {
+        title: '28-燃油系统',
+        children: ['/ATA28/','/ATA28/10','/ATA28/20']
+    };
+    let ATA29 = {
+        title: '29-液压系统',
+        children: ['/ATA29/','/ATA29/10','/ATA29/20']
+    };
+    let ATA55 = {
+        title: '55-结构：安定面',
+        children: ['/ATA55/','/ATA55/10','/ATA55/20','/ATA55/30','/ATA55/40']
+    };
+    let ATA57 = {
+        title: '57-结构：大翼',
+        children: ['/ATA57/','/ATA57/10','/ATA57/20','/ATA57/30','/ATA57/40','/ATA57/50','/ATA57/60','/ATA57/70']
+    };
+
     return [
-        ATA21,
-        ATA22,
-        ATA23,
-        ATA24,
-        ATA25,
-        ATA26,
-        ATA27,
+        //ATA21,
+        //ATA22,
+        //ATA23,
+        //ATA24,
+        //ATA25,
+        //ATA26,
+        //ATA27,
+        //ATA30,
+        //ATA31,
+        //ATA32,
+        //ATA33,
+        //ATA34,
+        //ATA35,
+        //ATA36,
+        //ATA38,
+        //ATA46,
+        //ATA47,
+        //ATA49,
+        //ATA51,
+        //ATA52,
         ATA28,
         ATA29,
-        ATA30,
-        ATA31,
-        ATA32,
-        ATA33,
-        ATA34,
-        ATA35,
-        ATA36,
-        ATA38,
-        ATA46,
-        ATA47,
-        ATA49,
-        ATA51,
-        ATA52,
-        ATA71
+        ATA55,
+        ATA57,
+        //ATA71
     ]
 }
