@@ -2,7 +2,7 @@
 home: true
 heroImage: /A320.jpg
 actionText: 开始阅读 →
-actionLink: /ATA36/
+actionLink: /fin.md
 footer: MIT Licensed | Copyright © 2018-present 风中的切变
 next: /ATA21/
 ---
