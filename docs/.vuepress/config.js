@@ -9,7 +9,6 @@ module.exports = {
         //lastUpdated: '最后一次编辑',
         nav: [
             { text: '个人主页', link: 'https://320wuyanzu.github.io' },
-            { text: 'FIN号介绍', link: '/fin' },
             { text: 'A330', link: 'https://320wuyanzu.github.io/A330' },
             { text: '章节号速查', link: 'https://320wuyanzu.github.io/ATAs' },
             { text: 'FIN速查', link: 'https://320wuyanzu.github.io/FINs' }
@@ -24,6 +23,14 @@ module.exports = {
  * 折叠式侧边栏
  */
 function sidebar_group() {
+    let FIN = {
+        title: 'FIN号简介',
+        children: ['./fin.md']
+    };
+    let FINe = {
+        title: '电类部件的FIN号',
+        children: ['./fine.md']
+    };
     let ATA36 = {
         title: 'ATA36-Pneumatic',
         children: ['/ATA36/', './ATA36/1', './ATA36/2', './ATA36/3', './ATA36/4', './ATA36/5', './ATA36/6']
@@ -127,6 +134,8 @@ function sidebar_group() {
     };
 
     return [
+        FIN,
+        FINe,
         ATA36,
         //ATA21,
         //ATA22,
